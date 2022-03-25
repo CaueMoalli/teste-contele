@@ -1,0 +1,19 @@
+{
+  "name": "teste-contele",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "author": "Caue Moalli",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "knex": "^1.0.4",
+    "pg": "^8.7.3"
+  }
+}
