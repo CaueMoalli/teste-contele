@@ -4,23 +4,22 @@
  * @type { Object.<string, import("knex").Knex.Config> }
  */
 module.exports = {
-
   development: {
-    client: 'pg',
+    client: "pg",
     connection: {
       database: "teste_contele",
       user: "postgres",
-      password: "0000"
+      password: "0000",
     },
     migrations: {
-      tableName: 'knex_migrations',
-      directory: `${__dirname}/src/database/migrations`
+      tableName: "knex_migrations",
+      directory: `${__dirname}/src/database/migrations`,
     },
     seeds: {
-      directory: `${__dirname}/src/database/seeds`
-    }
+      directory: `${__dirname}/src/database/seeds`,
+    },
   },
-/*
+  /*
   staging: {
     client: 'postgresql',
     connection: {
@@ -53,5 +52,4 @@ module.exports = {
       tableName: 'knex_migrations'
     }
   } */
-
 };
